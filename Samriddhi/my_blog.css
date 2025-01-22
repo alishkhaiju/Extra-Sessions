@@ -116,10 +116,10 @@ main h1 {
 
 
 .gridContainer {
-    padding: 20px;
+    padding: 10px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    gap: 10px;
 }
 
 .gridItem {
@@ -484,3 +484,106 @@ main h1 {
 }
 
 /*About Us CSS ends here*/
+
+
+/*Contact Us CSS Starts Here */
+
+.contactUsFirstRowContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+    margin-left: 10em;
+    margin-right: 10em;
+
+}
+
+.contactUsFirstRowInnerContainer {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.contactUsFirstRowContainer h2 {
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(70, 148, 225);
+}
+
+.contactUsFirstRowContainer i {
+    color: rgb(221, 149, 16);
+}
+
+.contactUsFirstRowContainer p {
+    line-height: 1.5em;
+}
+
+
+.contactUsSecondRowContainer {
+    display: flex;
+    padding: 20px;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-left: 10em;
+    margin-right: 10em;
+
+}
+
+.contactUsSecondRowInnerContainer {
+    padding: 20px;
+    width: 35%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+.contactUsTextAreaContainer {
+    display: flex;
+    max-width: 100%;
+    margin-left: 12em;
+    margin-right: 10em;
+}
+
+
+.contactUsTextAreaInnerContainer {
+    padding: 10px;
+    width: 100%;
+}
+
+
+.contactUsButtonContainer {
+    display: flex;
+    max-width: 100%;
+    margin-left: 12em;
+    margin-right: 10em;
+}
+
+.contactUsButtonContainer button {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: rgb(50, 135, 220);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/*Contact Us CSS Ends Here */
